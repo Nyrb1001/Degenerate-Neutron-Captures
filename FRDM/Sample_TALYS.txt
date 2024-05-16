@@ -1,0 +1,20 @@
+########################## 
+##   TALYS input file   ## 
+##    56Fe(n,g)57Fe     ## 
+########################## 
+ 
+element Fe 
+projectile n 
+mass 56 
+energy energies.txt 
+ 
+MaxN 1 
+MaxZ 0 
+astro n 
+ldmodel 4 
+massmodel 1 
+strength 4 
+preequilibrium y 
+popeps 1.e-20 
+transeps 1.e-20 
+xseps 1.e-20 
