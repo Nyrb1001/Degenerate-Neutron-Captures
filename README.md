@@ -48,5 +48,5 @@ $$
 where $E_0$ is the threshold energy for a reaction. Please refer to [Shternin et. al (2012)](https://arxiv.org/pdf/1207.6064.pdf)  for more information on how to implement degeneracy corrections in this situation.
 
 The file "fits.dat" contains 11 columns, formatted as (%i %i %1.4E*9). The first two columns contain the neutron number and proton number for the targte nucleus. The remaining 8 columns contain the paramaters: 
-$\sigma_a [mb], \nu, $E_0 [MeV], \sigma_1 [mb], E_1, \Omega_1 [MeV], \sigma_2 [mb], E_2 [MeV]$, and $\Omega_2 [MeV]$.
+$\sigma_a [mb], \nu, E_0 [MeV], \sigma_1 [mb], E_1, \Omega_1 [MeV], \sigma_2 [mb], E_2 [MeV]$, and $\Omega_2 [MeV]$.
 
